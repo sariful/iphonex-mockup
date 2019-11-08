@@ -1,0 +1,94 @@
+.iphone-body {
+    width: 100%;
+    height: 100%;
+    background: #333;
+    border-radius: 35px;
+    padding: 5px;
+    position: relative;
+}
+.screen {
+    background: #eee;
+    width: 94%;
+    height: 97%;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+
+.profile-btn {
+    width: 1.2%;
+    height: 3%;
+    background: #333;
+    position: absolute;
+    top: 13%;
+    left: -1%;
+}
+
+
+.volume-up-btn {
+    width: 1.2%;
+    height: 29px;
+    background: #333;
+    position: absolute;
+    top: 19%;
+    left: -1%;
+}
+
+.volume-down-btn {
+    width: 1.2%;
+    height: 29px;
+    background: #333;
+    position: absolute;
+    top: 25%;
+    left: -1%;
+}
+
+.power-btn {
+    width: 1.2%;
+    height: 48px;
+    background: #333;
+    position: absolute;
+    top: 18%;
+    right: -1%;
+}
+
+.notch {
+    width: 56%;
+    height: 4.39%;
+    background: #333;
+    z-index: 11111;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0px 0px 16px 16px;
+}
+
+
+.bottom-home-bar {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    width: 45%;
+    height: 0.8%;
+    background: rgba(51, 51, 51, 0.2);
+    transform: translateX(-50%);
+    border-radius: 18px;
+}
+
+.screen img {
+    width: 100%;
+    height: 100%;
+}
+
+.screen-img-placeholder {
+    height: 95.2%;
+    position: absolute;
+    bottom: 1.8%;
+    width: 100%;
+    left: 0;
+}
